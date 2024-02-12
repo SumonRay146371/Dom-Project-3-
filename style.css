@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  background: #000;
+  color: white;
+  position: relative;
+}
+
+.element {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  border-bottom: 1px solid;
+  align-items: center;
+  position: relative;
+  display: flex;
+}
+
+.main img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  transition: all linear 0.2s;
+  /* transform: translate(-50%, -50%); */
+  opacity: 0;
+}
